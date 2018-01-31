@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <audio class="hide" id="hyl" src="hyl.mp4" loop controls>
+    </audio>
+    <audio class="hide" id="hyll" src="hyll.mp4" controls>
+    </audio>
+    <head>
+        <meta charset="UTF-8">
+        <title>好运来</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <script src="js/lib/jquery-1.12.4.min.js"></script>
+        <script src="js/lib/common.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div id="flag">
+            <div id="allResult"></div>
+        </div>
+        <div>
+            <header>
+                <div></div>
+            </header>
+            <label id="selectLabel">
+                <select id="select">
+                    <option value="firstPrice">一等奖</option>
+                    <option value="secondPrice">二等奖</option>
+                    <option value="thirdPrice">三等奖</option>
+                    <option value="forthPrice">四等奖</option>
+                    <option value="fifthPrice">五等奖</option>
+                </select>
+            </label>
+            <section>
+                <div class="hide" id="luckyDrawing"><input id="showName" readonly type="text"></div>
+                <div class="hide" id="result">
+                    <div></div>
+                </div>
+            </section>
+            <footer>
+                <div>
+                    <input type="number" id="txtNum" value="" placeholder="请输入中奖人数">
+                    <button id="btnStart">开始</button>
+                    <button id="btnReset">&nbsp;</button>
+                </div>
+            </footer>
+        </div>
+        <div id="bgLuckyDrawEnd"></div>
+        <div id="iconDiv" class="animated fadeIn"><span><img src="css/img/icon/01.png"> </span><span><img
+                src="css/img/icon/02.png"> </span><span><img src="css/img/icon/03.png"> </span><span><img
+                src="css/img/icon/04.png"> </span><span><img src="css/img/icon/05.png"> </span><span><img
+                src="css/img/icon/06.png"> </span></div>
+    </body>
+</html>
