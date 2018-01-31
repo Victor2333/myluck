@@ -23,6 +23,4 @@ css:animation
 
 \css\img\			页面上所用到的图标文件
 
-
-在线演示：
-106.14.172.10
+直接运行index.html即可。
